@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>videojs-http-source-selector Demo</title>
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <!--<link href="node_modules/video.js/dist/video-js.css" rel="stylesheet">-->
+  <link href="dist/videojs-http-source-selector.css" rel="stylesheet">
+</head>
+<body>
+  <title>videojs-http-source-selector Demo</title>
+  <video id="videojs-http-source-selector-player" width="1280" height="720" class="video-js vjs-default-skin" controls>
+    <source src="https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8" type='application/x-mpegURL'>
+  </video>
+  Stream URL:
+  <input type="text" id="streamURL" value="https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8" size="65">
+  <button onClick="loadStream()">Load</button>
+
+  <!--<script src="node_modules/video.js/dist/video.js"></script>-->
+  <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
+  <script src="dist/videojs-contrib-quality-levels.js"></script>
+  <script src="dist/videojs-http-source-selector.js"></script>
+  <script>
+    (function(window, videojs) {
+      var player = window.player = videojs('videojs-http-source-selector-player');
+      player.httpSourceSelector();
+    }(window, window.videojs));
+
+    function loadStream(){
+      console.log("Change stream to : "+document.getElementById("streamURL").value );
+      player.src({ type: "application/x-mpegURL", src: document.getElementById("streamURL").value });
+    }
+  </script>
+</body>
+</html>

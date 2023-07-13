@@ -1,0 +1,26 @@
+.profile-cover-bg{
+    height:200px;
+}
+
+.card-img{
+    border-radius: 0px!important;
+}
+
+@media (max-width: 767px) {
+    .avatar-holder, .avatar-holder img{
+        width: 130px;
+        height: 130px;
+    }
+}
+.description-content p{
+    margin-bottom: .5rem;
+}
+.description-content p:last-child{
+    margin-bottom: 5px;
+}
+
+.description-content p{
+    margin-bottom: 0.3rem;
+}
+
+

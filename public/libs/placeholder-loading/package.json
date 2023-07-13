@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      "placeholder-loading@0.5.0",
+      "/mnt/f/of-tools/builds/Script"
+    ]
+  ],
+  "_from": "placeholder-loading@0.5.0",
+  "_id": "placeholder-loading@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-7nhBjcdyhj/mdNiom0k3UBbwVL7M8jJj9uz9nODsWS319KJ+yWyhgFSc+Mwzf/oR/sprcQlcmEw43iqZ/I6rPw==",
+  "_location": "/placeholder-loading",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "placeholder-loading@0.5.0",
+    "name": "placeholder-loading",
+    "escapedName": "placeholder-loading",
+    "rawSpec": "0.5.0",
+    "saveSpec": null,
+    "fetchSpec": "0.5.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/placeholder-loading/-/placeholder-loading-0.5.0.tgz",
+  "_spec": "0.5.0",
+  "_where": "/mnt/f/of-tools/builds/Script",
+  "author": {
+    "name": "Zalog",
+    "url": "https://www.zalog.ro/"
+  },
+  "bugs": {
+    "url": "https://github.com/zalog/placeholder-loading/issues"
+  },
+  "description": "Simple and flexible, css only, content placeholder loading animation.",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-header": "^2.0.9",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.37.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.20.1"
+  },
+  "homepage": "https://github.com/zalog/placeholder-loading#readme",
+  "keywords": [
+    "placeholder",
+    "content",
+    "flex",
+    "scss"
+  ],
+  "license": "MIT",
+  "name": "placeholder-loading",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalog/placeholder-loading.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production gulp build",
+    "commit": "npm run commit:version && npm run commit:build",
+    "commit:build": "npm run build && git add dist && git commit -m \"build: runs 'npm run build'\"",
+    "commit:version": "branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD); branch=${branch#release/}; npm --no-git-tag-version version ${branch} && git add package.json package-lock.json && git commit -m \"build: bumps version ${branch}\"",
+    "deploy": "npm run deploy:github && npm run deploy:npm",
+    "deploy:github": "git subtree push --prefix dist origin gh-pages",
+    "deploy:npm": "npm publish",
+    "lint": "npm run lint:css",
+    "lint:css": "stylelint 'src/scss/*.scss'",
+    "serve": "gulp serve",
+    "start": "gulp"
+  },
+  "version": "0.5.0"
+}

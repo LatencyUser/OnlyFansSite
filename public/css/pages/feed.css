@@ -1,0 +1,51 @@
+.main-wrapper .col-10{
+    padding-right:0px!important;
+}
+
+.feed-suggestions-wrapper{
+    margin-top:90px
+}
+
+@media (max-width: 767px) {
+    .suggestions-wrapper {
+        border:none!important;
+    }
+}
+
+.user-stories-wrapper{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.user-stories-wrapper .user-story{
+    width: 80px;
+}
+
+.user-story-avatar-holder{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /*background-color: #FF6B6B;*/
+}
+
+.user-stories-wrapper .user-story img{
+    width: 70px;
+    height: 70px;
+}
+
+.story-avatar-holder{
+    width:80px;
+    height:80px;
+}
+
+.story-border{
+    border-radius: 50%;
+    z-index: 0;
+    right:5px;
+    bottom: 45px
+}
+
+.stream-badge-label{
+    font-size:0.6rem
+}

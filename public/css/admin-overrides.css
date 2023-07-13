@@ -1,0 +1,460 @@
+.admin-setting-description{
+    margin-left:15px;
+}
+
+.app-container .side-menu .panel.widget h4 {
+    font-size: 16px!important;
+    margin-top: 20px!important;
+    margin-left: 5px!important;
+}
+
+.identity-files-preview{
+    padding-left:15px;
+    margin-bottom: 10px;
+}
+
+.identity-files-preview img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.payments-info, .social-login-info, .invoices-info, .emails-info{
+    /*display: none;*/
+}
+
+.tab-additional-info{
+    /*display: none;*/
+    padding-bottom: 0px!important;
+}
+
+.tab-additional-info .alert{
+    margin-bottom: 0px;
+}
+
+.tab-additional-info .info-label{
+    margin-bottom: 4px;
+}
+
+.tab-additional-info .icon{
+    display: inline-block;
+    margin-right:5px;
+}
+
+.tab-additional-info ul{
+    margin-left:20px;
+}
+
+.tab-additional-info li{
+   margin-top:4px;
+}
+
+.admin-id-asset{
+    width:200px;
+    height:200px
+}
+
+.metrics-container{
+    font-size: 16px!important;
+}
+
+.metrics-container .row {
+    margin-bottom: 0px!important;
+}
+
+
+.settings .panel-body{
+    padding-left: 0px;
+}
+
+.settings #payments{
+    /*padding-top:0px;*/
+}
+
+/* TODO: Re-use some of these (Settings & Compass menus overrides) */
+.compass .voyager .nav-tabs>li.active>a:hover {
+    background-color: #CB0C9F!important;
+}
+
+.compass .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    background-color: #CB0C9F;
+    border-color: transparent transparent #CB0C9F;
+}
+
+.compass .nav-tabs>li.active>a:hover {
+    background-color: #CB0C9F;
+}
+
+.compass .panel>:not(.panel-loading):not(.collapsing) {
+    padding-left: 0px!important;
+}
+
+.settings .nav-tabs li{
+    font-weight: 500!important;
+}
+
+.settings .panel-title {
+    font-size: 16px;
+}
+
+
+.settings .voyager .nav-tabs>li.active>a:hover {
+    background-color: #CB0C9F!important;
+}
+
+.settings .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    background-color: #CB0C9F;
+    border-color: transparent transparent #CB0C9F;
+}
+
+.settings .nav-tabs>li.active>a:hover {
+    background-color: #CB0C9F;
+}
+
+.settings .panel>:not(.panel-loading):not(.collapsing) {
+    padding-left: 0px!important;
+}
+
+.voyager.users #dataTable img{
+    width: 64px!important;
+    height: 64px!important;
+    border-radius: 100%!important;
+}
+
+.voyager.users .actions{
+    width:230px;
+}
+
+.settings .ace_editor.min_height_400 {
+    min-height: 200px!important;
+    width: 100%;
+}
+
+.primary-link{
+    color: #CB0C9F!important;
+}
+
+.primary-link:hover{
+    color: #E585CF!important;
+}
+
+.info-category-bg{
+    background: #ffc4f1;width:64px;height:64px;border-radius: 40%
+}
+
+.info-category-icon{
+    font-size: 44px;color:#f648ce;padding-top:10px
+}
+
+.dashboard a{
+    text-decoration: none!important;
+}
+
+/**
+* Bootstrap 4 polyfills
+ */
+
+.d-flex{
+    display: flex!important;
+}
+
+.d-none{
+    display: none!important;
+}
+
+.mb-4{
+    margin-bottom: 1.5rem!important;
+}
+
+.mb-1{
+    margin-bottom: 1rem!important;
+}
+
+.mb-2{
+    margin-bottom: 1.2rem!important;
+}
+
+.mt-2{
+    margin-top: 1.2rem!important;
+}
+
+.p-5{
+    padding:1.6rem;
+}
+
+.mt-05{
+    margin-top:0.6rem;
+}
+
+.mt-3{
+    margin-top:1.3rem;
+}
+
+.mt-10{
+    margin-top:10px;
+}
+
+.m-0{
+    margin:0!important;
+}
+
+.ml-2{
+    margin-left:1.2rem;
+}
+
+.ml-4{
+    margin-left:1.4rem;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.font-weight-bolder{
+    font-weight: 600!important;
+}
+
+.rounded{
+    border-radius: 0.35rem!important;
+}
+
+.h-100{
+    height: 100%!important;
+}
+
+
+.two-columns-graph-holder{
+    display: flex!important;
+}
+
+.text-success{
+    color:#2ECC71!important;
+}
+
+.text-danger{
+    color:#ea0606!important;
+}
+
+@media (max-width: 767px) {
+    .two-columns-graph-holder{
+        display: block!important;
+    }
+}
+
+.icon.voyager-angle-down, .icon.voyager-angle-up{
+    margin-top:3px;
+    margin-right: 3px;
+}
+
+.edit-add-bread {
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+
+.setting-value-image {
+    width:200px;
+    height:auto;
+    padding:2px;
+    border:1px solid #ddd;
+    margin-bottom:10px;
+}
+
+.settings-upload {
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+
+.bgimage{
+    background-size: cover;
+    background-position: 0px;
+}
+
+
+.bread-label{
+    padding: 5px;
+}
+
+.user-edit-avatar{
+    width:200px;
+    height:auto;
+    clear:both;
+    display:block;
+    padding:2px;
+    border:1px solid #ddd;
+    margin-bottom:10px;
+}
+
+.user-save-form{
+    width:0px;
+    height:0;
+    overflow:hidden
+}
+
+.alert .close {
+    background: transparent;
+}
+
+.w-50p{
+    width: 50px;
+}
+
+.w-100p{
+    width: 100px;
+}
+
+.docs-text {
+    color: #FFFFFF!important;
+    text-decoration: none!important;
+}
+
+.nav-tabs>li>a {
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    color: #76838f;
+    transition: .25s;
+}
+
+.pickr .pcr-button::before {
+    background: none!important;
+}
+
+.pcr-color-preview{
+    display: none!important;
+}
+
+.pcr-app[data-theme='nano'] .pcr-swatches {
+    margin-top: 0.1em!important;
+    padding: 0 0.9em!important;
+}
+
+.pcr-app[data-theme='nano'] .pcr-selection {
+    grid-gap: 0.3em!important;
+}
+.mb-0{
+    margin-bottom: 0px!important;
+}
+
+.tab-additional-info a{
+    color:#FFF;
+    font-weight: 500;
+}
+
+.tab-additional-info a:hover{
+    color:#f1f1f1;
+}
+
+/**
+Additional themes overrides
+ */
+
+/*.voyager .side-menu.sidebar-inverse {*/
+/*    background: #293042!important;*/
+/*}*/
+
+/*.voyager .side-menu.sidebar-inverse .navbar li>a:hover {*/
+/*    color: #fff;*/
+/*    background: #2d364c!important;*/
+/*}*/
+
+
+/*#voyager-loader {*/
+/*   background-color: #EDEEF0!important;*/
+/*}*/
+
+/*.app-container {*/
+/*    background-color: #EDEEF0!important;*/
+/*}*/
+
+/*body{*/
+/*    background-color: #EDEEF0!important;*/
+/*}*/
+
+/*    background-color: #EDEEF0; */
+
+
+.table {
+    margin-bottom: 0px;
+}
+
+.voyager .table>thead>tr>th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+th{
+    color: #acacac!important;
+    font-weight: 600!important;
+}
+
+th a {
+    color: #777!important;
+    font-weight: 600!important;
+}
+
+th a:hover {
+    color: #E585CF!important;
+}
+
+.actions.text-right.dt-not-orderable{
+    padding-right: 15px!important;
+}
+
+.table-responsive{
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+
+#search-input .select2-selection {
+    border:none!important;
+}
+
+.btn i{
+    margin-right: 3px;
+}
+
+hr {
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+}
+
+ .voyager .navbar .navbar-nav>li:hover>a {
+    color: #FFF!important;
+}
+
+.voyager .side-menu .navbar-header {
+    background: transparent!important;
+}
+
+.analytics-container {
+    padding: 0px 25px 25px!important;
+}
+
+label{
+    color: #37474f;
+    font-weight: 500;
+}
+
+.custom-pages .no-sort.no-click.bread-actions{
+    width: 300px;
+}
+
+#rememberMeGroup .controls{
+    display: flex;
+    align-content: center;
+}
+
+.remember-me-text{
+    padding-top: 9px;
+    padding-left: 4px;
+}
